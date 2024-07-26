@@ -1,0 +1,6 @@
+pao = float(input("Digite quantos pães foram vendidos:"))
+broa = float(input("Digite quantas broas foram vendidas:"))
+venda = (pao*0.12)+(broa*1.50)
+print("O total das vendas foi:",venda)
+poupanca = (venda*0.10)
+print("Será guardado na poupança:",poupanca)

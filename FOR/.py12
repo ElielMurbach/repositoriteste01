@@ -1,0 +1,34 @@
+matriz = [[1, 120, -3],[4, 5, 250],[7, 0, 9]]
+
+
+maior_valor = matriz[0][0]
+
+coluna_2 = (0, 0)
+
+menor_valor = matriz[0][0]
+
+coluna_2 = (0, 0)
+
+for i in range(3):
+
+    for n in range(3):
+
+        if matriz[i][n] > maior_valor:
+
+            maior_valor = matriz[i][n]
+
+            coluna_2 = (i, n)
+
+        if matriz[i][n] < menor_valor:
+
+            menor_valor = matriz[i][n]
+
+            coluna_2 = (i, n)
+
+for linha in matriz:
+    
+    print(linha)
+
+print(f"o maior numero e {maior_valor} ele ta na linha {coluna_2[0]} na coluna {coluna_2[1]}")
+
+print(f"o manor numero e {menor_valor} ele ta na linha {coluna_2[0]} na coluna {coluna_2[1]}")

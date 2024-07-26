@@ -1,0 +1,11 @@
+matriz = [[0 for d in range(5)] for D in range(5)]
+
+
+for i in range(5):
+
+    matriz[i][i] = 1
+
+
+for linha in matriz:
+    
+    print(linha)

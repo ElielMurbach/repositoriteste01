@@ -1,0 +1,10 @@
+alunos = [("mateus",7.0),("eliel", 7.5),("eduardo",5.5)]
+notamaior = 0
+nome = 0
+
+for tupla in alunos:
+   if tupla[1]>notamaior:
+    notamaior = tupla [1]
+    nome = tupla
+
+print(f"\nO aluno com a maior nota e o {nome[0]}\n")

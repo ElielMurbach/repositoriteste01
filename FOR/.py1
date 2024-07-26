@@ -1,0 +1,15 @@
+n = 3
+m = 3
+
+matriz = []
+
+
+for lista in range (n):
+    lin = []
+    for col in range (m):
+        lin.append(input("Digite o valor: "))
+    matriz.append(lin)
+
+
+for i in matriz:
+    print(i)

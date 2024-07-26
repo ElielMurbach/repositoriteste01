@@ -1,0 +1,21 @@
+matriz = [[1, 2, 11, 13],[4, 15, 16, 60],[7, 8, 19, 200],[20, 100, 5, 3]]
+
+maior_valor = matriz[0][0]
+
+locali = (0, 0)
+
+for i in range(4):
+
+    for j in range(4):
+
+        if matriz[i][j] > maior_valor:
+
+            maior_valor = matriz[i][j]
+
+            locali = (i, j)
+
+for linha in matriz:
+    
+    print(linha)
+
+print(f"o maior valor e: {maior_valor} ta localizado na linha {locali[0]} na coluna {locali[1]}")
